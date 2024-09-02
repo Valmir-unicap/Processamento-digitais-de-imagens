@@ -35,6 +35,8 @@ while True:
     gray = cv.addWeighted(abs_grad_x, 0.5, abs_grad_y, 0.5, 0)
     
     cv2_imshow(gray)
+
+    print("Imagem com gradiente normal")
     
     # Gradiente de Roberts
     
@@ -55,6 +57,8 @@ while True:
     gray2 = cv.addWeighted(abs_grad_x, 0.5, abs_grad_y, 0.5, 0)
     
     cv2_imshow(gray2)
+
+    print("Imagem com gradiente de Roberts")
     
     # Gradiente de Sobel
     
@@ -70,3 +74,5 @@ while True:
     grad = cv.addWeighted(abs_grad_x, 0.5, abs_grad_y, 0.5, 0)
     
     cv2_imshow(grad)
+
+    print("Imagem com gradiente de Sobel")
