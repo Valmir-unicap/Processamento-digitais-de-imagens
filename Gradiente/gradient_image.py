@@ -76,3 +76,5 @@ while True:
     cv2_imshow(grad)
 
     print("Imagem com gradiente de Sobel")
+
+    break
